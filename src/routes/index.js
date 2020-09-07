@@ -1,15 +1,20 @@
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
-import Main from '~/screens/Main';
+import Todos from '~/screens/Todos';
 
-const Routes = createSwitchNavigator({
-  Main: {
-    screen: Main,
+const StackApp = createStackNavigator({
+  Todos: {
+    screen: Todos,
     navigationOptions: {
       header: null,
       gesturesEnabled: false,
     },
   },
+})
+
+const Routes = createSwitchNavigator({
+  StackApp
 });
 
 export default createAppContainer(Routes);

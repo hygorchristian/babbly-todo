@@ -22,11 +22,9 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "dependencies",
         "import"
     ],
   "rules": {
-    "dependencies/no-unresolved": "error",
     "react/prop-types": "off",
   },
   "settings": {

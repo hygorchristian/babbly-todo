@@ -2,39 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9edc1b5-60b8-40b0-92fc-85809d439af3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/metro.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/AuthProvider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/EventEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/jwtService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/redux/auth-duck.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AuthProvider/redux/auth-saga.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/ReactotronConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config/StatusBarConfig.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello/Hello.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello2/Hello2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello2/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello2/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello3/Hello3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello3/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Hello3/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Main/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/screens/Main/styles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/services/Api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/ducks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/sagas/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/PaperProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/theme/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello/Hello.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello2/Hello2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello2/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello3/Hello3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello3/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/Hello3/styles.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,13 +44,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1hBrUBZWG6EAL9aqpfG479ztKqX" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,6 +73,7 @@
       <recent name="$PROJECT_DIR$/assets" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/components" />
       <recent name="$PROJECT_DIR$/assets/fonts" />
@@ -109,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599495339205</updated>
-      <workItem from="1599495340439" duration="2411000" />
+      <workItem from="1599495340439" duration="8135000" />
     </task>
     <servers />
   </component>

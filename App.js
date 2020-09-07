@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import * as Font from 'expo-font';
-import App from './src/App';
+import Application from './src/Application';
 
-function Application() {
+function App() {
   const [loaded, setLoaded] = useState(false);
 
   const init = async () => {
@@ -21,8 +21,8 @@ function Application() {
     init()
   }, [])
 
-  return loaded && <App />;
+  return loaded && <Application />;
 
 }
 
-export default Application;
+export default App;
