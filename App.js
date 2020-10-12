@@ -2,9 +2,6 @@ import React, { useState, useEffect } from 'react';
 import * as Font from 'expo-font';
 import Application from './src/Application';
 
-
-//
-
 function App() {
   const [loaded, setLoaded] = useState(false);
 
